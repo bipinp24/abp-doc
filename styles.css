@@ -8,44 +8,8 @@ body {
     margin: 0;
 }
 
-.hero {
-    position: relative;
-}
 
-.hero > div > div {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    align-items: center;
-    align-content: flex-end;
-    height: 100vh;
-    max-width: 600px;
-    padding: 0 0 48px 0;
-}
-
-.hero h1, h2 {
-    z-index: 2;
-    position: relative;
-    background: #FFF;
-    padding: 6px 24px;
-    margin: 0;
-    flex: 1 1 auto;
-}
-
-.hero picture {
-    display: block;
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-}
-
-.hero img {
-    object-fit: cover;
-    width: 100%;
-    height: 100%;
-}@font-face {
+@font-face {
     font-family: 'Trebuchet MS';
     size-adjust: 95%;
     src: local('Trebuchet MS'),
