@@ -1,0 +1,16 @@
+.header {
+    & > div {
+        max-width: 1024px;
+        margin: 0 auto;
+        table {
+            width: 100%;
+            td {
+                img {
+                    width: 50px;
+                }
+            }
+        }
+    }
+    
+    
+}

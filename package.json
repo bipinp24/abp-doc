@@ -1,0 +1,27 @@
+{
+  "name": "abp-doc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "scripts.js",
+  "scripts": {
+    "compile-css": "node ./build-scripts/compile-scss.js",
+    "dev": "nodemon --ext 'scss' ./build-scripts/compile-scss.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bipinp24/abp-doc.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bipinp24/abp-doc/issues"
+  },
+  "homepage": "https://github.com/bipinp24/abp-doc#readme",
+  "dependencies": {
+    "node-sass": "^7.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}

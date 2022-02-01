@@ -1,0 +1,26 @@
+.services {
+    & > div {
+        padding: 4.5rem 0;
+        max-width: 1024px;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+        grid-auto-rows: auto;
+        grid-gap: 1rem;
+        & > div {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            p, h2 {
+                text-align: center;
+                a {
+                    color: #000000;
+                    text-decoration: none;
+                }
+            }
+            img {
+                width: 250px;
+            }
+        }
+    }
+}

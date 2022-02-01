@@ -1,0 +1,26 @@
+.banner {
+    background-color: #dc2626;
+    color: #f8fafc;
+    & > div {
+        max-width: 1024px;
+        margin: 0 auto;
+        padding: 4.5rem 0;
+    }
+    h1 {
+        margin: 1.5rem 0;
+    }
+    p {
+        font-size: 14px;
+    }
+    h3 {
+        margin-top: 1.5rem;
+        a {
+            font-size: 14px;
+            padding: .25rem .5rem;
+            color: #f8fafc;
+            border: 1px solid #f8fafc;
+            border-radius: 3rem;
+            text-decoration: none;
+        }
+    }
+}
