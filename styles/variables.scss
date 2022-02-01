@@ -2,17 +2,26 @@ $spectrum-global-font-family-base: adobe-clean, 'Source Sans Pro', -apple-system
 $spectrum-global-font-family-serif: adobe-clean-serif, 'Source Serif Pro', Georgia, serif;
 
 $spectrum-global-font-line-height-small: 1.3;
+$spectrum-global-font-line-height-medium: 1.5;
 $spectrum-global-font-style-regular: normal;
 $spectrum-global-font-letter-spacing-none: 0;
 
+$spectrum-global-font-weight-regular: 400;
 $spectrum-global-font-weight-bold: 700;
 
 
 $spectrum-alias-heading-xxl-text-size: 45px;
 $spectrum-alias-heading-l-text-size: 28px;
-$spectrum-global-dimension-size-225:18px;
 $spectrum-global-dimension-size-200: 20px;
+$spectrum-global-dimension-size-225:18px;
+$spectrum-global-dimension-font-size-200: 16px;
+$spectrum-global-dimension-font-size-500: 27px;
 
 
-$spectrum-global-color-gray-900: rgb(255, 255, 255);
-$spectrum-global-color-gray-800: rgb(227, 227, 227);
+// Dark
+$spectrum-global-dark-color-gray-900: rgb(255, 255, 255);
+$spectrum-global-dark-color-gray-800: rgb(227, 227, 227);
+
+// Light
+$spectrum-global-light-color-gray-900: rgb(44, 44, 44);
+$spectrum-global-light-color-gray-800: rgb(75, 75, 75);

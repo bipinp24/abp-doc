@@ -8,6 +8,9 @@ sass.render(
     outFile: path.resolve('styles.css'),
   },
   function (error, result) {
+    if (error) {
+      console.log(error)
+    }
     if (!error) {
       // No errors during the compilation, write this result on the disk
       fs.writeFile(path.resolve('styles.css'), result.css, function (err) {

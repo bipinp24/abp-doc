@@ -4,8 +4,9 @@
   "description": "",
   "main": "scripts.js",
   "scripts": {
-    "compile-css": "node ./build-scripts/compile-scss.js",
-    "dev": "nodemon --ext 'scss' ./build-scripts/compile-scss.js"
+    "dev": "nodemon --ext 'scss' ./build-scripts/compile-scss.js",
+    "build": "npm run _compile-css",
+    "_compile-css": "node ./build-scripts/compile-scss.js"
   },
   "repository": {
     "type": "git",
