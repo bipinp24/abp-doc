@@ -1,0 +1,29 @@
+.site {
+    background-image: url('./assets/subsystem.webp');
+    position: relative;
+    width: 100%;
+    height: 350px;
+    > div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        height: 100%;
+        h1 {
+            color: $spectrum-global-dark-color-gray-900;
+            font-family: $spectrum-global-font-family-serif;
+            font-weight: $spectrum-global-font-weight-bold;
+            font-size: $spectrum-alias-heading-xxl-text-size;
+            line-height: $spectrum-global-font-line-height-small;
+            font-style: $spectrum-global-font-style-regular;
+            letter-spacing: $spectrum-global-font-letter-spacing-none;
+            text-transform: none;
+        }
+        p {
+            font-family: $spectrum-global-font-family-base;
+            font-size: $spectrum-global-dimension-size-225;
+            color: $spectrum-global-dark-color-gray-800 !important;
+        }
+    }
+}
