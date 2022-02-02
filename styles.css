@@ -147,7 +147,7 @@ html {
       font-size: 18px;
       color: #e3e3e3 !important; }
 
-.system > div {
+.systems > div {
   padding: 4.5rem 0;
   max-width: 1024px;
   margin: 0 auto;
@@ -155,11 +155,11 @@ html {
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   grid-auto-rows: auto;
   grid-gap: 3rem; }
-  .system > div > div {
+  .systems > div > div {
     display: flex;
     flex-direction: column;
     justify-content: space-between; }
-    .services > div > div h3, .services > div > div h3 > a {
+    .systems > div > div h3, .systems > div > div h3 > a {
       font-family: adobe-clean, "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Trebuchet MS", "Lucida Grande", sans-serif;
       margin-bottom: 16px !important;
       color: #2c2c2c;
@@ -171,7 +171,7 @@ html {
       text-transform: none;
       text-align: center;
       text-decoration: none; }
-    .system > div > div p {
+    .systems > div > div p {
       font-family: adobe-clean, "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Trebuchet MS", "Lucida Grande", sans-serif;
       color: #4b4b4b;
       font-size: 16px;
@@ -181,5 +181,5 @@ html {
       letter-spacing: 0;
       text-transform: none;
       text-align: center; }
-    .system > div > div img {
+    .systems > div > div img {
       width: 250px; }
