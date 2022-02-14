@@ -246,3 +246,29 @@ html {
       text-align: center; }
     .prod > div > div img {
       width: 75px; }
+
+.api {
+  background-image: url("./assets/offer.webp");
+  position: relative;
+  width: 100%;
+  height: 350px; }
+  .api > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100%; }
+    .api > div h1 {
+      color: white;
+      font-family: adobe-clean-serif, "Source Serif Pro", Georgia, serif;
+      font-weight: 700;
+      font-size: 45px;
+      line-height: 1.3;
+      font-style: normal;
+      letter-spacing: 0;
+      text-transform: none; }
+    .api > div p {
+      font-family: adobe-clean, "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Trebuchet MS", "Lucida Grande", sans-serif;
+      font-size: 18px;
+      color: #e3e3e3 !important; }
