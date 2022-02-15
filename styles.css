@@ -175,6 +175,80 @@ header {
       font-size: 18px;
       color: #e3e3e3 !important; }
 
+.hero-offer {
+  background-image: url("./assets/hero.webp");
+  position: relative;
+  width: 100%;
+  height: 350px;
+  background-image: url("./assets/offer.webp"); }
+  .hero-offer > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100%; }
+    .hero-offer > div h1 {
+      color: white;
+      font-family: adobe-clean-serif, "Source Serif Pro", Georgia, serif;
+      font-weight: 700;
+      font-size: 45px;
+      line-height: 1.3;
+      font-style: normal;
+      letter-spacing: 0;
+      text-transform: none; }
+    .hero-offer > div h2 {
+      color: white;
+      margin-top: 0 !important;
+      margin-bottom: 20px !important;
+      font-family: adobe-clean, "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Trebuchet MS", "Lucida Grande", sans-serif;
+      font-weight: 700;
+      line-height: 1.3;
+      font-style: normal;
+      letter-spacing: 0;
+      font-size: 28px; }
+    .hero-offer > div p {
+      font-family: adobe-clean, "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Trebuchet MS", "Lucida Grande", sans-serif;
+      font-size: 18px;
+      color: #e3e3e3 !important; }
+
+.hero-api {
+  background-image: url("./assets/hero.webp");
+  position: relative;
+  width: 100%;
+  height: 350px;
+  background-image: url("./assets/api.webp"); }
+  .hero-api > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100%; }
+    .hero-api > div h1 {
+      color: white;
+      font-family: adobe-clean-serif, "Source Serif Pro", Georgia, serif;
+      font-weight: 700;
+      font-size: 45px;
+      line-height: 1.3;
+      font-style: normal;
+      letter-spacing: 0;
+      text-transform: none; }
+    .hero-api > div h2 {
+      color: white;
+      margin-top: 0 !important;
+      margin-bottom: 20px !important;
+      font-family: adobe-clean, "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Trebuchet MS", "Lucida Grande", sans-serif;
+      font-weight: 700;
+      line-height: 1.3;
+      font-style: normal;
+      letter-spacing: 0;
+      font-size: 28px; }
+    .hero-api > div p {
+      font-family: adobe-clean, "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Trebuchet MS", "Lucida Grande", sans-serif;
+      font-size: 18px;
+      color: #e3e3e3 !important; }
+
 .site {
   background-image: url("./assets/subsystem.webp");
   position: relative;
