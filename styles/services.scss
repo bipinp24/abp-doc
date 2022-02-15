@@ -1,4 +1,4 @@
-.services {
+@mixin services () {
     & > div {
         padding: 4.5rem 0;
         max-width: 1024px;
@@ -42,8 +42,27 @@
                 text-transform: none;
                 text-align: center;
             }
+        }
+    }
+}
+
+.services {
+    @include services();
+    & > div {
+        & > div {
             img {
                 width: 250px;
+            }
+        }
+    }
+}
+
+.services-systems {
+    @include services();
+    & > div {
+        & > div {
+            img {
+                width: 75px;
             }
         }
     }

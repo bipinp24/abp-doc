@@ -1,4 +1,4 @@
-.hero {
+@mixin hero {
     background-image: url('./assets/hero.webp');
     position: relative;
     width: 100%;
@@ -38,4 +38,16 @@
             color: $spectrum-global-dark-color-gray-800 !important;
         }
     }
+}
+
+.hero {
+    @include hero();
+}
+.hero-offer {
+    @include hero();
+    background-image: url("./assets/offer.webp");
+}
+.hero-api {
+    @include hero();
+    background-image: url("./assets/api.webp");
 }
