@@ -1,16 +1,27 @@
-.header {
+header {
+    padding: 1rem 1.5rem;
     & > div {
-        max-width: 1024px;
-        margin: 0 auto;
-        table {
-            width: 100%;
-            td {
-                img {
-                    width: 50px;
-                }
+        display: flex;
+        align-items: center;
+        .logo {
+            & > div {
+                display: flex;
+                align-items: center;
+            }
+            img {
+                width: 36px;
+                margin-right: 1rem;
+            }
+        }
+        .left-nav {
+            ul {
+                display: flex;
+                align-items: center;
+                list-style: none;
+                 li {
+                     margin: 0 1rem;
+                 }
             }
         }
     }
-    
-    
 }
