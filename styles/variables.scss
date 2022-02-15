@@ -10,12 +10,16 @@ $spectrum-global-font-weight-regular: 400;
 $spectrum-global-font-weight-bold: 700;
 
 
-$spectrum-alias-heading-xxl-text-size: 45px;
+$spectrum-global-dimension-font-size-100: 14px;
 $spectrum-alias-heading-l-text-size: 28px;
+$spectrum-alias-heading-xxl-text-size: 45px;
 $spectrum-global-dimension-size-200: 20px;
 $spectrum-global-dimension-size-225:18px;
 $spectrum-global-dimension-font-size-200: 16px;
 $spectrum-global-dimension-font-size-500: 27px;
+
+
+$spectrum-alias-font-size-default : $spectrum-global-dimension-font-size-100;
 
 
 // Dark
@@ -25,3 +29,4 @@ $spectrum-global-dark-color-gray-800: rgb(227, 227, 227);
 // Light
 $spectrum-global-light-color-gray-900: rgb(44, 44, 44);
 $spectrum-global-light-color-gray-800: rgb(75, 75, 75);
+$spectrum-global-light-color-gray-700: rgb(110, 110, 110);

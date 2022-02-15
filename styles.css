@@ -1,6 +1,28 @@
+@import url("https://p.typekit.net/p.css?s=1&k=uma8ayv&ht=tk&f=7180.7181.7182.7184.22747&a=9025710&app=typekit&e=css");
 @font-face {
   font-family: "adobe-clean";
-  src: url("https://use.typekit.net/af/37eaae/00000000000000003b9b3f83/27/l?primer=fff1a989570eb474b8c22c57cc7199e63bfc7e911b750165d0199218f0b7e7cc&fvd=n3&v=3") format("woff2"), url("https://use.typekit.net/af/37eaae/00000000000000003b9b3f83/27/d?primer=fff1a989570eb474b8c22c57cc7199e63bfc7e911b750165d0199218f0b7e7cc&fvd=n3&v=3") format("woff"), url("https://use.typekit.net/af/37eaae/00000000000000003b9b3f83/27/a?primer=fff1a989570eb474b8c22c57cc7199e63bfc7e911b750165d0199218f0b7e7cc&fvd=n3&v=3") format("opentype");
+  src: url("https://use.typekit.net/af/cb695f/000000000000000000017701/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"), url("https://use.typekit.net/af/cb695f/000000000000000000017701/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"), url("https://use.typekit.net/af/cb695f/000000000000000000017701/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");
+  font-display: auto;
+  font-style: normal;
+  font-weight: 400; }
+
+@font-face {
+  font-family: "adobe-clean";
+  src: url("https://use.typekit.net/af/74ffb1/000000000000000000017702/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3") format("woff2"), url("https://use.typekit.net/af/74ffb1/000000000000000000017702/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3") format("woff"), url("https://use.typekit.net/af/74ffb1/000000000000000000017702/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3") format("opentype");
+  font-display: auto;
+  font-style: italic;
+  font-weight: 400; }
+
+@font-face {
+  font-family: "adobe-clean";
+  src: url("https://use.typekit.net/af/eaf09c/000000000000000000017703/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff2"), url("https://use.typekit.net/af/eaf09c/000000000000000000017703/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff"), url("https://use.typekit.net/af/eaf09c/000000000000000000017703/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("opentype");
+  font-display: auto;
+  font-style: normal;
+  font-weight: 700; }
+
+@font-face {
+  font-family: "adobe-clean";
+  src: url("https://use.typekit.net/af/40207f/0000000000000000000176ff/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3") format("woff2"), url("https://use.typekit.net/af/40207f/0000000000000000000176ff/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3") format("woff"), url("https://use.typekit.net/af/40207f/0000000000000000000176ff/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3") format("opentype");
   font-display: auto;
   font-style: normal;
   font-weight: 300; }
@@ -11,6 +33,12 @@
   font-display: auto;
   font-style: normal;
   font-weight: 900; }
+
+.tk-adobe-clean {
+  font-family: "adobe-clean",sans-serif; }
+
+.tk-adobe-clean-serif {
+  font-family: "adobe-clean-serif",sans-serif; }
 
 html {
   font-family: adobe-clean, sans-serif; }
@@ -77,13 +105,39 @@ html {
       border-radius: 3rem;
       text-decoration: none; }
 
-.header > div {
-  max-width: 1024px;
-  margin: 0 auto; }
-  .header > div table {
-    width: 100%; }
-    .header > div table td img {
-      width: 50px; }
+header {
+  font-size: 14px;
+  color: #6e6e6e;
+  padding: 0.85rem 1.5rem; }
+  header > div {
+    display: flex;
+    align-items: center; }
+    header > div .logo {
+      margin-right: 1rem; }
+      header > div .logo > div {
+        display: flex;
+        align-items: center; }
+      header > div .logo img {
+        height: 31px;
+        margin-right: 1rem; }
+      header > div .logo a {
+        color: #2c2c2c;
+        text-decoration: none;
+        font-weight: bold; }
+    header > div .left-nav {
+      padding-left: 1rem;
+      border-left: 1px solid black; }
+      header > div .left-nav ul {
+        display: flex;
+        align-items: center;
+        list-style: none; }
+        header > div .left-nav ul li {
+          margin: 0 0.5rem; }
+          header > div .left-nav ul li a {
+            color: inherit;
+            text-decoration: none; }
+          header > div .left-nav ul li:hover {
+            color: #2c2c2c; }
 
 .hero {
   background-image: url("./assets/hero.webp");
@@ -143,132 +197,6 @@ html {
       letter-spacing: 0;
       text-transform: none; }
     .site > div p {
-      font-family: adobe-clean, "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Trebuchet MS", "Lucida Grande", sans-serif;
-      font-size: 18px;
-      color: #e3e3e3 !important; }
-
-.systems > div {
-  padding: 4.5rem 0;
-  max-width: 1024px;
-  margin: 0 auto;
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-  grid-auto-rows: auto;
-  grid-gap: 3rem; }
-  .systems > div > div {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between; }
-    .systems > div > div h3, .systems > div > div h3 > a {
-      font-family: adobe-clean, "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Trebuchet MS", "Lucida Grande", sans-serif;
-      margin-bottom: 16px !important;
-      color: #2c2c2c;
-      font-weight: 700;
-      font-size: 27px;
-      line-height: 1.3;
-      font-style: normal;
-      letter-spacing: 0;
-      text-transform: none;
-      text-align: center;
-      text-decoration: none; }
-    .systems > div > div p {
-      font-family: adobe-clean, "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Trebuchet MS", "Lucida Grande", sans-serif;
-      color: #4b4b4b;
-      font-size: 16px;
-      font-weight: 400;
-      line-height: 1.5;
-      font-style: normal;
-      letter-spacing: 0;
-      text-transform: none;
-      text-align: center; }
-    .systems > div > div img {
-      width: 75px; }
-
-.offer {
-  background-image: url("./assets/api.webp");
-  position: relative;
-  width: 100%;
-  height: 350px; }
-  .offer > div {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    height: 100%; }
-    .offer > div h1 {
-      color: white;
-      font-family: adobe-clean-serif, "Source Serif Pro", Georgia, serif;
-      font-weight: 700;
-      font-size: 45px;
-      line-height: 1.3;
-      font-style: normal;
-      letter-spacing: 0;
-      text-transform: none; }
-    .offer > div p {
-      font-family: adobe-clean, "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Trebuchet MS", "Lucida Grande", sans-serif;
-      font-size: 18px;
-      color: #e3e3e3 !important; }
-
-.prod > div {
-  padding: 4.5rem 0;
-  max-width: 1024px;
-  margin: 0 auto;
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-  grid-auto-rows: auto;
-  grid-gap: 3rem; }
-  .prod > div > div {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between; }
-    .prod > div > div h3, .prod > div > div h3 > a {
-      font-family: adobe-clean, "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Trebuchet MS", "Lucida Grande", sans-serif;
-      margin-bottom: 16px !important;
-      color: #2c2c2c;
-      font-weight: 700;
-      font-size: 27px;
-      line-height: 1.3;
-      font-style: normal;
-      letter-spacing: 0;
-      text-transform: none;
-      text-align: center;
-      text-decoration: none; }
-    .prod > div > div p {
-      font-family: adobe-clean, "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Trebuchet MS", "Lucida Grande", sans-serif;
-      color: #4b4b4b;
-      font-size: 16px;
-      font-weight: 400;
-      line-height: 1.5;
-      font-style: normal;
-      letter-spacing: 0;
-      text-transform: none;
-      text-align: center; }
-    .prod > div > div img {
-      width: 75px; }
-
-.api {
-  background-image: url("./assets/offer.webp");
-  position: relative;
-  width: 100%;
-  height: 350px; }
-  .api > div {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    height: 100%; }
-    .api > div h1 {
-      color: white;
-      font-family: adobe-clean-serif, "Source Serif Pro", Georgia, serif;
-      font-weight: 700;
-      font-size: 45px;
-      line-height: 1.3;
-      font-style: normal;
-      letter-spacing: 0;
-      text-transform: none; }
-    .api > div p {
       font-family: adobe-clean, "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Trebuchet MS", "Lucida Grande", sans-serif;
       font-size: 18px;
       color: #e3e3e3 !important; }
